@@ -65,7 +65,6 @@ int main(void) {
     int fib[n];
     for (int i = 1; i < n; i++) {
         fib[i]=fibonacci(i);
-
     }
     for (int i = 0; i < n; ++i) {
         printf("%d ",fib[i]);
